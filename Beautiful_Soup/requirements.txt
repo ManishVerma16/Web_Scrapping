@@ -1,0 +1,4 @@
+Library used:
+1. Beautiful Soup 4
+2. LXML parser
+3. Request
