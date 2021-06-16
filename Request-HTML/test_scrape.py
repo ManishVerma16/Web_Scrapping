@@ -16,9 +16,10 @@ with open('simple.html') as html_file:  # opening the file in read mode
 # print(match.html)    # print the element tag with text content
 # print(match.text)    # print the text of html
 
-# match = html.find('.footer', first=True) # here the id attribute of the tag an be selected by # sign and class ny . with tag name
+# match = html.find('.footer', first=True) # here the id attribute of the tag an be selected by # sign and class by . with tag name
 # print(match.text)   
 
+'''
 
 articles = html.find('div.article') # here the id attribute of the tag an be selected by # sign and class ny . with tag name
 
@@ -28,3 +29,6 @@ for article in articles:
     print(headline)
     print(summary)
     print()
+
+'''
+
